@@ -1,0 +1,26 @@
+{
+  "id": "problem_003",
+  "title": "Fibonacci",
+  "difficulty": "medium",
+  "description": "Write a function that returns the nth Fibonacci number. The Fibonacci sequence starts with 0 and 1, and each subsequent number is the sum of the previous two.",
+  "function_signature": "def fibonacci(n: int) -> int",
+  "test_cases": [
+    {
+      "input": {"n": 0},
+      "expected_output": 0
+    },
+    {
+      "input": {"n": 1},
+      "expected_output": 1
+    },
+    {
+      "input": {"n": 5},
+      "expected_output": 5
+    },
+    {
+      "input": {"n": 10},
+      "expected_output": 55
+    }
+  ],
+  "estimated_tokens": 250
+}

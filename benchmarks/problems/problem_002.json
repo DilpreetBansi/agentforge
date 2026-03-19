@@ -1,0 +1,22 @@
+{
+  "id": "problem_002",
+  "title": "Two Sum",
+  "difficulty": "medium",
+  "description": "Given an array of integers nums and an integer target, return the indices of the two numbers that add up to the target. You may assume each input has exactly one solution, and you may not use the same element twice.",
+  "function_signature": "def two_sum(nums: list, target: int) -> list",
+  "test_cases": [
+    {
+      "input": {"nums": [2, 7, 11, 15], "target": 9},
+      "expected_output": [0, 1]
+    },
+    {
+      "input": {"nums": [3, 2, 4], "target": 6},
+      "expected_output": [1, 2]
+    },
+    {
+      "input": {"nums": [3, 3], "target": 6},
+      "expected_output": [0, 1]
+    }
+  ],
+  "estimated_tokens": 300
+}

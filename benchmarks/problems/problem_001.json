@@ -1,0 +1,22 @@
+{
+  "id": "problem_001",
+  "title": "FizzBuzz",
+  "difficulty": "easy",
+  "description": "Write a function that prints the numbers from 1 to n. For multiples of 3, print 'Fizz' instead of the number. For multiples of 5, print 'Buzz'. For multiples of both, print 'FizzBuzz'.",
+  "function_signature": "def fizzbuzz(n: int) -> str",
+  "test_cases": [
+    {
+      "input": {"n": 5},
+      "expected_output": "1\n2\nFizz\n4\nBuzz\n"
+    },
+    {
+      "input": {"n": 15},
+      "expected_output": "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n"
+    },
+    {
+      "input": {"n": 1},
+      "expected_output": "1\n"
+    }
+  ],
+  "estimated_tokens": 200
+}

@@ -1,0 +1,26 @@
+{
+  "id": "problem_004",
+  "title": "Palindrome Checker",
+  "difficulty": "easy",
+  "description": "Write a function that checks if a given string is a palindrome. A palindrome is a word, phrase, or sequence that reads the same backward as forward. Ignore spaces and case.",
+  "function_signature": "def is_palindrome(s: str) -> bool",
+  "test_cases": [
+    {
+      "input": {"s": "racecar"},
+      "expected_output": true
+    },
+    {
+      "input": {"s": "hello"},
+      "expected_output": false
+    },
+    {
+      "input": {"s": "A man a plan a canal Panama"},
+      "expected_output": true
+    },
+    {
+      "input": {"s": "was it a car or a cat i saw"},
+      "expected_output": true
+    }
+  ],
+  "estimated_tokens": 280
+}
